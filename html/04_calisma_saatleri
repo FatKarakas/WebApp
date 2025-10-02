@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tablolar</title>
+</head>
+        <body>
+            <h3>CALİSMA SAATLERİ</h3>
+<table border="1" style="background-color: black;">
+<tr align="center"style="background-color: red;">
+     <th width="100">pazartesi</th>
+     <th width="100">sali</th>
+     <th width="100">carsamba</th>
+     <th width="100">persembe</th> 
+     <th width="100">cuma</th>
+     <th width="100">cumartesi</th>
+     <th width="100">pazar</th>
+</tr>
+<tr align="center"style="background-color: purple;" >
+  <td>9-5</td>
+  <td>9-5</td>
+  <td>9-5</td>
+  <td>9-5</td>
+  <td>9-5</td>
+  <td>9-12</td>
+  <td>kapali</td>
+</tr>
+</table>
+    </body>
+</html>
