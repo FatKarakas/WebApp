@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My First Website</title>
+    </head>
+<body>
+    <h1> Bu cumle h1 boyutundadır</h1>
+    <h2> Bu cumle h2 boyutundadır</h2>
+    <h3> Bu cumle h3 boyutundadır</h3>
+    <h4>Bu cumle h4 boyutundadır </h4>
+    <h5>Bu cumle h5 boyutundadır </h5>
+    <h6>Bu cumle h6 boyutundadır </h6>
+    <hr>
+    <br>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nisi quaerat dolorum quia impedit dicta repellat culpa dolores dolore earum accusamus similique ab quo ea consequuntur, reiciendis cumque iste ut.
+    </p>
+  
+</body>
+</html>
