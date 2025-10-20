@@ -12,5 +12,6 @@ Bu klasörde web sayfasının yapısını oluşturan HTML dosyaları bulunmaktad
 1. HTML dosyalarını tarayıcınızda açarak görüntüleyebilirsiniz.
 2. CSS ve JavaScript dosyaları ile birlikte kullanıldığında sayfa tam olarak çalışır.
 
-***PROJELER***
+
+
 
