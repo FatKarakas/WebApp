@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>this is my website</h1>
+<div
+  <p class="black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, consequatur qui? Natus commodi a id ipsum molestias doloremque voluptatibus ea labore saepe beatae ab magnam, non qui. Laboriosam, velit dolor.</p>
+<hr>
+<p class ="black">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ea quam ad vitae reprehenderit accusamus dolorum molestiae quis laboriosam corporis. Similique ex officiis debitis tenetur rem reiciendis dolorem nam dignissimos.</p>
+</div>
+<hr>
+<img src="/css/images.jpg" height="200px" id="img">
+
+<div class="box">
+<h2>This is text1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eligendi autem facilis velit harum laudantium maiores? Rem adipisci, quaerat, animi eveniet reiciendis ratione iste deserunt recusandae labore soluta aspernatur architecto!</p>
+</div>
+<div class="box">
+<h2>This is text2</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eligendi autem facilis velit harum laudantium maiores? Rem adipisci, quaerat, animi eveniet reiciendis ratione iste deserunt recusandae labore soluta aspernatur architecto!</p>
+</div>
+
+
+
+</body>
+
+
+</html>
