@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ border-style: solid;
+ border-width: 4px;
+ border-color: blueviolet;
+ border-radius: 25px;
+ text-shadow: 3px 3px 5px red,-3px -3px 5px blue;
+}
+p
+{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 1.em;
+ font-weight: normal;
+ font-style: italic;
+
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+
+#img{
+    float: right;
+    margin: 15px;
+
+}
+.box{
+    border:2px solid;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    box-sizing: content-box;
+    min-width: 75%;
+}
