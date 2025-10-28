@@ -1,0 +1,21 @@
+div{
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    left: 100px;
+    top: 50px;
+
+}
+div.mutlak{
+        position: absolute;
+        width: 50px;
+        height: 20px;
+        background-color: yellow;
+        left: 100px;
+        top: 10px;
+}
+h1{
+    position:static;
+    top: 50px;
+}
