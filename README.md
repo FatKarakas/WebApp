@@ -8,3 +8,7 @@ Bu proje bir web tabanlı uygulamadır. HTML, CSS ve JavaScript kullanılarak ge
 UYGULAMA DÜZENİ:
 -Önce klasörlerin içine çalışma ,örnek kodlar yazılacak.(öğrenme sürecim göz önünde tutulmuştur)
 -CSS,JavasScript ve HTML bitince direkt WebApp deposunun içinde proje uygulamaları yer edinecektir.
+-Basitten ileri seviyeye doğru projeler yapılacaktır.Hem kendi klasörlerin içinde hem de WebApp deposunun içinde yer alır.
+
+PROJELER:
+1-RESTORAN MENÜSÜ
