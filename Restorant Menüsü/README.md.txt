@@ -14,5 +14,5 @@ Her ürün fotoğraf + açıklama kutusunda sergilenir.
 Basit, sade ve restoran menüsü temalı bir görünüm sunar.
 Mobil uyumlu meta etiketi içerir.
 
-Web sayfasının fotografını ana yapısını belgelicem ama linkinide paylaşmak istiyorum.
-[Canlı Görünüm için Tıklayın] http://127.0.0.1:5500/restorant_menusu.html
+
+
