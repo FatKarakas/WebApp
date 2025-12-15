@@ -1,0 +1,20 @@
+azaltmaBtn=document.getElementById("azaltmaBtn");
+yenileBtnBtn=document.getElementById("yenileBtn");
+arttirmaBtn=document.getElementById("arttirmaBtn");
+countLabel=document.getElementById("countLabel");
+let count=0;
+
+azaltmaBtn.onclick=function(){
+    count--;
+    countLabel.textContent=count;
+}
+
+arttirmaBtn.onclick=function(){
+    count++;
+    countLabel.textContent=count;
+}
+
+yenileBtn.onclick=function(){
+    count=0;
+    countLabel.textContent=count;
+}
