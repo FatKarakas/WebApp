@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf- 8" />  
+<link rel="stylesheet" href="style.css"  /> 
+<title>SAYAÇ</title> 
+</head> 
+<body>
+<label id="countLabel">0</label>
+<div id="btnContainer">
+<button id="azaltmaBtn" class="buttons">azalt</button>
+<button id="yenileBtn" class="buttons" >yenile</button>
+<button id="arttirmaBtn"  class="buttons">arttirma </button>
+
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
