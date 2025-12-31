@@ -1,0 +1,42 @@
+const min=1;
+const max=100;
+const answer=Math.floor(Math.random()  * (max-min+1) + min  );
+
+
+
+let deneme=0;
+let tahmin;
+let tahmindevam=true;
+
+while(tahmindevam)
+{
+tahmin=window.prompt(`${min}-${max} arasinda bir sayi tahmin et` );
+tahmin=Number(tahmin);
+if(isNaN(tahmin))
+{
+window.alert("lutfen gecerli bir sayi giriniz");
+}
+else if(tahmin < min||  tahmin>max)
+{
+window.alert("lutfen gecerli bir sayi giriniz");
+}
+else
+{
+    deneme++;
+    if(tahmin<answer)
+    {
+      window.alert("girilen sayi çok küçük,tekrar giriniz");
+    }
+    else if(tahmin>answer) 
+    {
+      window.alert("girilen sayi çok büyük,tekrar giriniz");
+    }
+    else
+    {
+    window.alert(`DOGRU TAHMİN ETTİNİZ.CEVAP: ${answer}.TOPLAM DENEME SAYİNİZ:${deneme}`);
+    tahmindevam=false;
+    }
+}
+
+
+}
