@@ -1,0 +1,21 @@
+body{
+background-position: center;
+background-size: 1300px;
+background-color: pink;
+background-repeat: no-repeat;
+margin: 0;
+}
+
+#saat-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+#saat{
+    font-family: monospace;
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+}
