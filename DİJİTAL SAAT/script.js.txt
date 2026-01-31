@@ -1,0 +1,10 @@
+function saatGuncelle(){
+    const suan= new Date();
+    const saat=suan.getHours().toString().padStart(2,0);
+    const dakika=suan.getMinutes().toString().padStart(2,0);
+    const saniye=suan.getSeconds().toString().padStart(2,0);
+    const zaman=` ${saat}:${dakika}:${saniye}`;
+    document.getElementById("saat").textContent=zaman;
+}
+saatGuncelle();
+setInterval(saatGuncelle,1000);
