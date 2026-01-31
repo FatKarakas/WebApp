@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf- 8" />  
+<link rel="stylesheet" href="style.css"  /> 
+<title>HOŞGELDİNİZ</title> 
+</head> 
+<body>
+<h1 id="H1">KRONOMETRE</h1>
+<div id="Container">
+  <div id="display"> 
+    00:00:00:00
+  </div>
+  <div id="tuslar">
+    <button id="BaslatBtn" onclick="baslat()">Baslat</button>
+    <button id="DurdurBtn" onclick="durdur()">Durdur</button>
+    <button id="SifirlaBtn" onclick="sifirla()">Sifirla</button>
+  </div>
+
+
+</div>
+
+
+ <script src="script.js"></script>
+  
+</body>
+</html>
