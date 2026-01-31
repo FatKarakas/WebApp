@@ -1,0 +1,40 @@
+const display=document.getElementById("display");
+let kronometre=null;
+let baslangiczamani=0;
+let gecenzaman=0;
+let devamediyormu=false;
+
+function baslat(){
+if(!devamediyormu)
+{
+    baslangiczamani=Date.now()- gecenzaman;
+    kronometre=setInterval(guncelle,10);
+    devamediyormu=true;
+}
+
+}
+
+function durdur(){
+    if(devamediyormu){
+        clearInterval(kronometre);
+        gecenzaman=Date.now()-baslangiczamani;
+        devamediyormu=false;
+    }
+
+}
+function sifirla(){
+clearInterval(kronometre);
+baslangiczamani=0;
+gecenzaman=0;
+devamediyormu=false;
+display.textContent="00:00:00:00";
+}
+function guncelle(){
+const suankizaman=Date.now();
+gecenzaman=suankizaman-baslangiczamani;
+let saat= Math.floor(gecenzaman/(1000*60*60)).toString().padStart(2,"0");
+let dakika=Math.floor((gecenzaman/(1000*60))%60).toString().padStart(2,"0");
+let saniye=Math.floor((gecenzaman/1000)%60).toString().padStart(2,"0");
+let milisaniye=Math.floor(gecenzaman%1000/10).toString().padStart(2,"0");
+display.textContent=`${saat}:${dakika}:${saniye}:${milisaniye}`;
+}
