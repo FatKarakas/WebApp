@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+}
+
+#H1{
+    font-size: 4em;
+    font-family: Arial, sans-serif;
+    color:hsl(0,0%,25%);
+}
+#Container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 30px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+}
+#display{
+    font-size: 5em;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0,0%,30%);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.75);
+    margin-bottom: 25px;
+}
+#tuslar{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin: 5px;
+    min-width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#BaslatBtn{
+    background-color: darkslateblue;
+}
+#BaslatBtn:hover{
+    background-color: hsl(248,39%,29%);
+}
+#DurdurBtn{
+    background-color: darkslateblue;
+}
+#DurdurBtn:hover{
+    background-color:hsl(248,39%,29%);
+}
+#SifirlaBtn{
+    background-color: darkslateblue;
+}
+#SifirlaBtn:hover{
+    background-color: hsl(248,39%,29%);
+}
